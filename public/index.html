@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="style/reset.css"
+      type="text/css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      href="style/style.css"
+      type="text/css"
+      media="screen"
+    />
+    <link
+      href="/node_modules/three-dots/dist/three-dots.css"
+      rel="stylesheet"
+    />
+    <title>ねこガチャ</title>
+  </head>
+  <body>
+    <header>
+      <h1>ねこガチャ</h1>
+      <img
+        width="50px"
+        height="50px"
+        src="img/bbe77b970e2e53f5e59204acc09e265e.png"
+        alt="肉球"
+      />
+    </header>
+    <main>
+      <div class="wrapper">
+        <p class="description">ねこの画像をランダムで表示します。</p>
+        <div class="img-container">
+          <div class="dot-spin"></div>
+          <img id="cat-img" src="" alt="cat" />
+        </div>
+        <button class="fetch-button">ねこガチャをまわす</button>
+      </div>
+    </main>
+    <footer>
+      <p>
+        つくったひと:
+        <a
+          href="https://twitter.com/YonaK55648609"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Yona.K
+        </a>
+      </p>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
