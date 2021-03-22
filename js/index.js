@@ -23,6 +23,11 @@
     fetchCatAPI();
   })();
 
+  // set screen height
+  document.addEventListener('DOMContentLoaded', () => {
+    document.body.style.height = `${window.outerHeight}px`;
+  });
+
   // events
 
   fetchButton.addEventListener('mousedown', () => {
