@@ -110,6 +110,13 @@ footer > p > a {
     font-size: 0.8rem;
   }
   .fetch-button {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    padding: 12px 24px;
+  }
+  footer {
+    padding: 5px 0;
+  }
+  footer > p {
+    font-size: 0.8rem;
   }
 }
