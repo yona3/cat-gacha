@@ -23,6 +23,10 @@
     fetchCatAPI();
   })();
 
+  // // events
+
+  fetchButton.addEventListener('mousedown', fetchCatAPI);
+
   // on load image
   catImgEl.addEventListener('load', () => {
     loadingEl.style.display = 'none';
