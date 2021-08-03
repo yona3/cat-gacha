@@ -35,10 +35,10 @@ document.querySelector('#app').innerHTML = `
     <p>
       つくったひと:
       <a
-        href="https://twitter.com/YonaK55648609"
+        href="https://twitter.com/js_yona"
         target="_blank"
         rel="noopener noreferrer"
-        >Yona.K
+        >yona
       </a>
     </p>
   </footer>
