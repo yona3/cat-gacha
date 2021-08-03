@@ -11,7 +11,7 @@ document.querySelector('#app').innerHTML = `
     <img
       width="50px"
       height="50px"
-      src="img/bbe77b970e2e53f5e59204acc09e265e.png"
+      src="/assets/favicon.5a12b885.ico"
       alt="肉球"
     />
   </header>
@@ -25,7 +25,7 @@ document.querySelector('#app').innerHTML = `
         <img
           width="50px"
           height="50px"
-          src="img/bbe77b970e2e53f5e59204acc09e265e.png"
+          src="/assets/favicon.5a12b885.ico"
           alt="肉球"
         />
       </button>
