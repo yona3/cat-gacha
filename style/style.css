@@ -8,7 +8,6 @@
 }
 
 body {
-  width: 100vw;
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
@@ -30,6 +29,7 @@ h1 {
 
 /* main */
 .wrapper {
+  padding: 0 16px;
   text-align: center;
 }
 
@@ -72,19 +72,19 @@ h1 {
 
 .fetch-button {
   border: none;
-  margin-top: 5vh;
-  padding: 16px 24px;
-  font-size: 1.1rem;
-  border: 1px solid rgb(216, 216, 216);
-  border-radius: 3px;
-  /* box-shadow: 0 3px 4px 2px rgba(0, 0, 0, 0.05); */
+  margin-top: 50px;
+  padding: 10px;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 50%;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.02);
   background: white;
-  transition: 0.2s;
+  color: white;
   cursor: pointer;
 }
 
-.fetch-button:hover {
-  opacity: 0.7;
+.fetch-button:active {
+  margin-top: 52px;
+  box-shadow: none;
 }
 
 /* footer */
@@ -113,10 +113,6 @@ footer > p > a {
   .description {
     margin-top: 5px;
     font-size: 0.8rem;
-  }
-  .fetch-button {
-    font-size: 0.9rem;
-    padding: 12px 24px;
   }
   footer {
     padding: 8px 0;
