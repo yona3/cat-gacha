@@ -4,6 +4,46 @@ import './style/reset.css';
 import './style/style.css';
 import './style/three-dots.css';
 
+// html
+document.querySelector('#app').innerHTML = `
+  <header>
+    <h1>ねこガチャ</h1>
+    <img
+      width="50px"
+      height="50px"
+      src="img/bbe77b970e2e53f5e59204acc09e265e.png"
+      alt="肉球"
+    />
+  </header>
+  <main>
+    <div class="wrapper">
+      <p class="description">ねこの画像をランダムで表示します。</p>
+      <div class="img-container">
+        <div class="dot-spin"></div>
+      </div>
+      <button class="fetch-button">
+        <img
+          width="50px"
+          height="50px"
+          src="img/bbe77b970e2e53f5e59204acc09e265e.png"
+          alt="肉球"
+        />
+      </button>
+    </div>
+  </main>
+  <footer>
+    <p>
+      つくったひと:
+      <a
+        href="https://twitter.com/YonaK55648609"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Yona.K
+      </a>
+    </p>
+  </footer>
+`;
+
 {
   const url = 'https://aws.random.cat/meow';
   const ImageContainer = document.querySelector('.img-container');

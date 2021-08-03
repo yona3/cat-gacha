@@ -7,7 +7,7 @@
   --text-color: rgb(48, 48, 48);
 }
 
-body {
+#app {
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
